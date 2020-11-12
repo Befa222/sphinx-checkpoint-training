@@ -2,6 +2,9 @@ body {
     margin:0;
     padding:0;
 }
+h1{
+    font-family: 'Lobster', cursive;
+}
 #hero-image{
     top: 0;
     margin: 0;
@@ -34,19 +37,20 @@ body {
     box-sizing: content-box;
 }
 .dept {
-    width: 150px;
-    height: 120px;
+    width: 130px;
+    height: 100px;
     margin: 5px;
-    box-sizing: inherit;
-    float: left;
+    box-sizing: content-box;
   }
 .departmentBlock {
-    box-sizing: inherit;
+    width: 300px;
+    box-sizing: content-box;
     display: flex;
-    justify-content: space-between;
+   justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
     height: 400px;
+   
     
 }
 #jumper{
@@ -57,4 +61,52 @@ body {
     width: 200px;
     height: auto;
     margin-bottom: 1em;
+}
+/* 
+# Tablet */
+@media only screen and (min-width: 768px){
+    #section-container{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align:center;
+        margin-top:2em;
+      }
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px){
+    #section-container{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align:center;
+        margin-top:2em;
+      }
+}
+
+/* # Huge */
+@media only screen and (min-width: 1150px){
+    #section-container{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align:center;
+        margin-top:2em;
+      }
+
+} 
+@media only screen and (max-width: 768px){
+    #section-container{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align:center;
+        margin-top:2em;
+      }
+    
 }
