@@ -21,7 +21,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align:center;
-  margin-top:5em;
+  margin-top:2em;
 }
 .sect{
   display: flex;
@@ -37,10 +37,11 @@ body {
     width: 150px;
     height: 120px;
     margin: 5px;
-    box-sizing: content-box;
+    box-sizing: inherit;
+    float: left;
   }
 .departmentBlock {
-    box-sizing: content-box;
+    box-sizing: inherit;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
